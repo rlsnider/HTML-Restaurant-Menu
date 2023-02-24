@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -39,6 +40,9 @@ nav ul {
 
 nav li {
     display: inline;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 25px;
 }
 
 nav a {
@@ -65,15 +69,19 @@ nav a:hover {
 
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
-    border: 5px solid green;
+    border: 2px solid green;
     border-radius: 5px;
     color: darkred;
     font-size: 2em;
     padding: 20px;
     margin: 10px;
 }
-
+.location{
+    list-style-type: none;
+    text-align: center;
+}
 table {
     border: 3px solid black;
     width: 100%;
